@@ -7,9 +7,9 @@ The project serves the purpose of creating a powerful framework for FrontEnd dev
 
 You will be required to install node and npm , after which you will have to run the command ```npm install``` in the CMD to install all the plugins listed in package.json . If you want to install a new plugin from npm you will have to run the command ```npm install <PLUGIN NAME> --save-dev```.
 
-P.S. if a plugin is not available on [npm](https://www.npmjs.com/) , you can manually install the plugin by downloading and unziping the plugin and placing it in the ```js/plugins``` folder.
-
-P.S. Make sure you replace ```name : {YOUR_PROJECT_NAME}``` , with your project folder name or the npm CMD will through an error.
+P.S. 
+* if a plugin is not available on [npm](https://www.npmjs.com/) , you can manually install the plugin by downloading and unziping the plugin and placing it in the ```js/plugins``` folder.
+* Make sure you replace ```name : {YOUR_PROJECT_NAME}``` in the package.json file , with your project folder name or the npm CMD will through an error.
 
 ## Additional Notes
 
