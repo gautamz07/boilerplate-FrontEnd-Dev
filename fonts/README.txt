@@ -1,0 +1,1 @@
+For converting custom fonts to web fonts you can use transfonter and extract the fonts in the Fonts directory.

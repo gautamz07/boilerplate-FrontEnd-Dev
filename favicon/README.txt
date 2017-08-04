@@ -1,0 +1,1 @@
+For the favicon you can use favicon-generator and extract the favion in the favicon directory.
