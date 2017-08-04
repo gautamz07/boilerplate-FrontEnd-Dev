@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title> Page not found</title>
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Font awesome CSS -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- Custume style -->
+    <link href="js/animate/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />        
+  </head>
+  <body>
+    <div class="not-found">
+       <h1>Page Not Found</h1>
+       <p>Sorry, but the page you were trying to view does not exist.<br /><a href="#" class="back" >Back to privious page</a></p>     
+    </div>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->    
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/animate/modernizr.js"></script>
+
+    
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      $(document).ready(function(){
+        $('a.back').click(function(){
+          parent.history.back();
+          return false;
+        });
+      });
+
+
+      if(navigator.userAgent.indexOf("Speed Insights") == -1) {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments);},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m);
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      
+        ga('create', 'UA-XXXXX-Y', 'auto');
+        ga('send', 'pageview');
+      }
+    </script>
+  </body> 
+</html>
